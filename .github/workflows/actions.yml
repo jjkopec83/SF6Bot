@@ -1,0 +1,5 @@
+on:
+  schedule:
+    - cron:  '0 17 * * *'
+    # This runs at 10:00 AM UTC each day.
+    # * is a special character in YAML so you have to quote this string
